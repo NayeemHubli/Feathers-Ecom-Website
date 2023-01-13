@@ -1,0 +1,14 @@
+<?php
+session_start();
+unset($_SESSION['log_name']);
+session_start();
+unset($_SESSION['log_id']);
+session_start();
+unset($_SESSION['log_role']);
+session_start();
+unset($_SESSION['log_user_name']);
+session_start();
+session_destroy();
+header('location:index.php');
+exit;
+?>

@@ -1,0 +1,55 @@
+.logo-style {
+    font-family: "Segoe WP", "Segoe UI", sans-serif, Helvetica, Arial;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.font12{
+    font-size: 12px !important;
+}.font14{
+     font-size: 14px !important;
+ }.font16{
+      font-size: 16px !important;
+  }.font18{
+       font-size: 18px !important;
+   }.font20{
+        font-size: 20px !important;
+    }.font22{
+         font-size: 22px !important;
+     }.font24{
+          font-size: 24px !important;
+      }
+
+.chicken_price{
+    font-weight: 900;
+    font-size: 50px;
+    color: #dd4b39;
+    margin-top: 0px;
+    margin-bottom: -6px;
+   /* height: 70px;*/
+}
+@media (min-width: 320px) {
+    .chicken_price{
+        /*font-weight: 900;
+        font-size: 50px; color: #dd4b39;
+        margin-top: 0px;
+        margin-bottom: 0px;*/
+    }
+}
+
+.mobile_padding{
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+.add_carusal{
+    height: 20%;
+    margin-top: 55px;
+    margin-bottom: 5px;
+    box-shadow: 2px 3px 2px rgb(130, 130, 130);
+}
+.add_min_carusal{
+    height: 20%;
+    margin-top: 10px !important;
+    margin-bottom: 5px;
+    box-shadow: 2px 3px 2px rgb(130, 130, 130);
+}

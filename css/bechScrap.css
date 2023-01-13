@@ -1,0 +1,116 @@
+/*fix the menu*/
+.fixed-menu{
+    position: fixed;
+    width: 100%;
+}
+/*modal code*/
+.example-modal .modal {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    display: block;
+    z-index: 1;
+}
+.example-modal .modal {
+    background: transparent!important;
+}
+
+.put-left{
+    margin-left: -7%;
+}
+.input-border{
+    border-radius: 6px;
+    border-color: rgba(255,255,255,0.15);
+}
+
+.green-background{
+    background-color: #00a65a !important;
+}
+
+.text-box-border-color{
+    border-color: #dd4b39 !important;
+}
+.text-box-border-color-warning{
+    border-color: #f39c12 !important;
+}
+ /*box shadow*/
+.box-shadow
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12) ;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/*Button effects*/
+.feature {
+    margin-top: 5px;
+    font-size:20px;
+    color:#fff;
+    /*  background: #D2D6DE;*/
+    width: 30px;
+    height: 17px;
+    /* padding: 6px 6px 13px 0px;*/
+    margin-bottom: 10px;
+    -webkit-border-radius:70%;
+    -moz-border-radius:70%;
+    -o-border-radius:70%;
+    border-radius:20%;
+    position: relative;
+    box-shadow: 0 0 0 30px transparent;
+    -webkit-transform: translate3d(2, 2, 2);
+    -moz-transform: translate3d(2, 2, 2);
+    -o-transform: translate3d(2, 2, 2);
+    transform: translate3d(2, 2, 2);
+    -webkit-transition: box-shadow .6s ease-in-out;
+    -moz-transition: box-shadow .6s ease-in-out;
+    -o-transition: box-shadow .6s ease-in-out;
+    transition: box-shadow .6s ease-in-out;
+    border: 0px;
+}
+
+.orange:hover {
+
+    -webkit-transition: box-shadow .6s ease-in-out;
+    -moz-transition: box-shadow .6s ease-in-out;
+    -o-transition: box-shadow .6s ease-in-out;
+    transition: box-shadow .6s ease-in-out;
+    box-shadow: 0 0 0 0 #f39c12 !important;
+    background-color:  #f39c12 !important ;
+}
+
+.font-bold
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bottom-color-white{
+    border-bottom: 1px solid rgb(236, 240, 245) !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-18{
+     font-size: 18px !important;
+}
+.font-20{
+    font-size: 20px !important;
+}
+.font-22{
+    font-size: 22px !important;
+}
+.font-24{
+    font-size: 24px !important;
+}
+.font-26{
+    font-size: 26px !important;
+}
+
